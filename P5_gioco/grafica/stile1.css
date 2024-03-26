@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Modificato per centrare il contenuto verticalmente */
+    height: 100vh;
+    margin: 0;
+    background-image: url('../img/home1.png');
+    background-size: cover; /* Modificato per far sì che lo sfondo copra l'intera finestra */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vh; /* Posiziona il contenitore dei pulsanti al 30% della finestra in altezza */
+}
+
+.button {
+    padding: 12.5vh 17vw;
+    max-width: 80vw;
+    font-size: 2vw;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 11%;
+    border: none; 
+    outline: none; 
+}
+.button1 {
+    /* Aggiungi qui i tuoi stili per il pulsante */
+    background-color: transparent; /* Colore di sfondo */
+    border: none; /* Nessun bordo */
+    padding: 70px 70px; /* Spaziatura interna */
+    position: absolute; /* Posizionamento assoluto */
+    top: 90px; /* Posizione verticale */
+    left: 15px; /* Posizione orizzontale */
+    z-index: 1; /* Sovrappone il pulsante sopra gli altri elementi */
+  }

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Modificato per centrare il contenuto verticalmente */
+    height: 100vh;
+    margin: 0;
+    background-image: url('../img/sfondo_completo.png');
+    background-size: cover; /* Modificato per far sì che lo sfondo copra l'intera finestra */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.button1 {
+    /* Aggiungi qui i tuoi stili per il pulsante */
+    background-color: transparent; /* Colore di sfondo */
+    border: none; /* Nessun bordo */
+    padding: 80px 90px; /* Spaziatura interna */
+    position: absolute; /* Posizionamento assoluto */
+    top: 40px; /* Posizione verticale */
+    left: 15px; /* Posizione orizzontale */
+    z-index: 1; /* Sovrappone il pulsante sopra gli altri elementi */
+  }

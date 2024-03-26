@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Modificato per centrare il contenuto verticalmente */
+    height: 100vh;
+    margin: 0;
+    background-image: url('../img/selezionaLivello.gif');
+    background-size: cover; /* Modificato per far sì che lo sfondo copra l'intera finestra */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row; /* Allinea i pulsanti in orizzontale */
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+.button {
+    padding: 9.3vh 14vw; /* Utilizzo di unità relative per il padding */
+    margin: 5vh; /* Aggiunto margine tutto intorno per separare i pulsanti */
+    font-size: 2vw; /* Dimensione del font in base alla larghezza della finestra */
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    margin-top: 17%;
+    border: none; 
+}
+
+
